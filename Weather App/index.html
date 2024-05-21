@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <img src="icon.png" alt="">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="searchbox">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter Location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <div class="notfound">
+            <img src="placeholder.png">
+            <p>Oops! Location Inavalid</p>
+        </div>
+        <div class="weatherbox">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+        <div class="weatherdetails">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+       
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/cae194a610.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
